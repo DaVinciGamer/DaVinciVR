@@ -403,7 +403,7 @@ MonoBehaviour:
   autoStartServerBuild: 0
   autoConnectClientBuild: 0
   offlineScene: Assets/Scenes/Offline.unity
-  onlineScene: Assets/Scenes/Charite/SampleScene/SampleScene.unity
+  onlineScene: Assets/Scenes/SurgicalRoom.unity
   transport: {fileID: 489616890}
   networkAddress: localhost
   maxConnections: 5
