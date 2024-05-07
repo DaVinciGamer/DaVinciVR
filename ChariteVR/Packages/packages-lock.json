@@ -1,5 +1,33 @@
 {
   "dependencies": {
+    "com.htc.upm.wave.essence": {
+      "version": "https://github.com/ViveSoftware/VIVE-Wave.git?path=com.htc.upm.wave.essence",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.htc.upm.wave.xrsdk": "6.0.0-r.14",
+        "com.htc.upm.wave.native": "6.0.0-r.14"
+      },
+      "hash": "dd738b632a404f8859bbc8756468ca901487c6a3"
+    },
+    "com.htc.upm.wave.native": {
+      "version": "https://github.com/ViveSoftware/VIVE-Wave.git?path=com.htc.upm.wave.native",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.htc.upm.wave.xrsdk": "6.0.0-r.14"
+      },
+      "hash": "dd738b632a404f8859bbc8756468ca901487c6a3"
+    },
+    "com.htc.upm.wave.xrsdk": {
+      "version": "https://github.com/ViveSoftware/VIVE-Wave.git?path=com.htc.upm.wave.xrsdk",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.management": "3.2.4"
+      },
+      "hash": "dd738b632a404f8859bbc8756468ca901487c6a3"
+    },
     "com.unity.animation.rigging": {
       "version": "1.2.1",
       "depth": 0,
